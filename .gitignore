@@ -1,0 +1,51 @@
+####################
+# Maven
+####################
+target/
+
+####################
+# Eclipse / STS
+####################
+.project
+.classpath
+.settings/
+
+####################
+# VS Code
+####################
+.vscode/
+
+####################
+# IntelliJ
+####################
+.idea/
+*.iml
+
+####################
+# Logs
+####################
+*.log
+
+####################
+# OS Files
+####################
+.DS_Store
+Thumbs.db
+
+####################
+# Generated Receipts
+####################
+receipts/
+pdf/
+images/
+
+####################
+# Chrome Profile
+####################
+ChromeProfile/
+DonationChromeProfile/
+
+####################
+# Application Secrets
+####################
+application-local.properties

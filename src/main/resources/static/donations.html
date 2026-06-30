@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donate - Helping Hearts</title>
+
+    <script>
+        window.onload = function() {
+            window.location.href = "upi://pay?pa=helpinghearts@upi&pn=HelpingHearts&cu=INR";
+        };
+    </script>
+
+    <style>
+        body {
+            font-family: "Segoe UI";
+            text-align: center;
+            background: linear-gradient(135deg, #5a189a, #3c096c);
+            color: white;
+            padding-top: 50px;
+        }
+
+        .box {
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 15px;
+            width: 300px;
+            margin: auto;
+            backdrop-filter: blur(10px);
+        }
+
+        img {
+            margin-top: 15px;
+            width: 200px;
+            border-radius: 10px;
+            background: white;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+    <h2>Redirecting to UPI app...</h2>
+
+    <p>If not redirected, please open your UPI app and use:</p>
+
+	<a href="upi://pay?pa=helpinghearts@upi&pn=HelpingHearts&cu=INR">
+	    <button>Open UPI App</button>
+	</a>
+
+    <p>Or Scan The QR Code 👇</p>
+
+    <!-- 🔥 ADD YOUR QR IMAGE HERE -->
+    <img src="/qr.png" class="img-fluid" alt="QR Code">
+
+</div>
+
+</body>
+</html>

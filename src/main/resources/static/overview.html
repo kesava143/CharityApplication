@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Put the styles specific to the content area here */
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f4f6f9;
+            padding: 25px;
+            margin: 0;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-6px);
+        }
+        .card h3 {
+            color: #1d4ed8;
+        }
+        .card p {
+            margin-top: 8px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Dashboard Overview</h2>
+    
+    <div class="cards">
+        <div class="card">
+            <h3>Users</h3>
+            <p>Manage registered users</p>
+        </div>
+        <div class="card">
+            <h3>Donations</h3>
+            <p>Track donations</p>
+        </div>
+        <div class="card">
+            <h3>Beneficiaries</h3>
+            <p>Helped members</p>
+        </div>
+        <div class="card">
+            <h3>Reports</h3>
+            <p>Generate reports</p>
+        </div>
+    </div>
+
+</body>
+</html>

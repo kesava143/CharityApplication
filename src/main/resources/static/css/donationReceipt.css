@@ -1,0 +1,341 @@
+/*----------------------------------------------------------
+    General
+----------------------------------------------------------*/
+
+body {
+
+    background: #f4f7fb;
+
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    color: #333;
+
+}
+
+.container {
+
+    max-width: 1400px;
+
+}
+
+/*----------------------------------------------------------
+    Card
+----------------------------------------------------------*/
+
+.card {
+
+    border: none;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+}
+
+.card-header {
+
+    background: linear-gradient(90deg,#0d6efd,#198754);
+
+    padding: 18px;
+
+}
+
+.card-header h3 {
+
+    margin: 0;
+
+    font-weight: 600;
+
+    color: white;
+
+}
+
+/*----------------------------------------------------------
+    Labels
+----------------------------------------------------------*/
+
+.form-label {
+
+    font-weight: 600;
+
+    color: #444;
+
+}
+
+/*----------------------------------------------------------
+    Inputs
+----------------------------------------------------------*/
+
+.form-control,
+
+.form-select {
+
+    border-radius: 10px;
+
+    min-height: 45px;
+
+}
+
+.form-control:focus,
+
+.form-select:focus {
+
+    border-color: #0d6efd;
+
+    box-shadow: 0 0 8px rgba(13,110,253,.25);
+
+}
+
+/*----------------------------------------------------------
+    Buttons
+----------------------------------------------------------*/
+
+.btn {
+
+    border-radius: 10px;
+
+    min-width: 150px;
+
+    margin: 5px;
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+.btn:hover {
+
+    transform: translateY(-2px);
+
+}
+
+.btn-success {
+
+    background: #198754;
+
+}
+
+.btn-primary {
+
+    background: #0d6efd;
+
+}
+
+.btn-warning {
+
+    color: white;
+
+}
+
+.btn-danger {
+
+    background: #dc3545;
+
+}
+
+/*----------------------------------------------------------
+    Progress
+----------------------------------------------------------*/
+
+.progress {
+
+    height: 28px;
+
+    border-radius: 20px;
+
+    background: #d9d9d9;
+
+}
+
+.progress-bar {
+
+    font-weight: bold;
+
+    font-size: 15px;
+
+    line-height: 28px;
+
+}
+
+/*----------------------------------------------------------
+    Statistics Cards
+----------------------------------------------------------*/
+
+.card .card-body {
+
+    text-align: center;
+
+}
+
+.card .card-body h6 {
+
+    color: #666;
+
+    margin-bottom: 10px;
+
+}
+
+.card .card-body h3 {
+
+    font-weight: bold;
+
+    color: #0d6efd;
+
+}
+
+.border-success h3 {
+
+    color: #198754;
+
+}
+
+.border-danger h3 {
+
+    color: #dc3545;
+
+}
+
+.border-warning h3 {
+
+    color: #fd7e14;
+
+}
+
+.border-primary h3 {
+
+    color: #0d6efd;
+
+}
+
+/*----------------------------------------------------------
+    Current Status
+----------------------------------------------------------*/
+
+.alert-info {
+
+    border-radius: 12px;
+
+    font-size: 15px;
+
+}
+
+.alert-info span {
+
+    font-weight: bold;
+
+    color: #0d6efd;
+
+}
+
+/*----------------------------------------------------------
+    Preview Table
+----------------------------------------------------------*/
+
+.table {
+
+    background: white;
+
+    border-radius: 10px;
+
+}
+
+.table th {
+
+    background: #0d6efd;
+
+    color: white;
+
+    text-align: center;
+
+}
+
+.table td {
+
+    text-align: center;
+
+    vertical-align: middle;
+
+}
+
+/*----------------------------------------------------------
+    Loading Spinner
+----------------------------------------------------------*/
+
+.spinner {
+
+    display: none;
+
+    width: 50px;
+
+    height: 50px;
+
+    border: 6px solid #ddd;
+
+    border-top: 6px solid #0d6efd;
+
+    border-radius: 50%;
+
+    animation: spin 1s linear infinite;
+
+    margin: 20px auto;
+
+}
+
+@keyframes spin {
+
+    100% {
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+/*----------------------------------------------------------
+    Footer
+----------------------------------------------------------*/
+
+.footer {
+
+    text-align: center;
+
+    color: #888;
+
+    margin-top: 25px;
+
+    font-size: 14px;
+
+}
+
+/*----------------------------------------------------------
+    Responsive
+----------------------------------------------------------*/
+
+@media (max-width:768px) {
+
+    .btn {
+
+        width: 100%;
+
+    }
+
+    .card-header h3 {
+
+        font-size: 22px;
+
+    }
+
+    .progress {
+
+        height: 22px;
+
+    }
+
+    .card .card-body h3 {
+
+        font-size: 24px;
+
+    }
+
+}
