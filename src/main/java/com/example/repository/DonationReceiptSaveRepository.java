@@ -11,4 +11,4 @@ import com.example.entity.DonationReceiptEntity;
 public interface DonationReceiptSaveRepository
         extends JpaRepository<DonationReceiptEntity, UUID> {
 
-} //checking
+}
