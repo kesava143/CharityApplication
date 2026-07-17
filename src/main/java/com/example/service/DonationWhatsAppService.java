@@ -85,7 +85,7 @@ public class DonationWhatsAppService {
 
         message.append("Dear *")
                .append(donation.getName())
-               .append("*,\n\n");
+               .append(" Garu*,\n\n");
 
         message.append(
                 "Greetings from *Helping Hearts And Supporting Hands Charitable Trust* ❤️\n\n");
